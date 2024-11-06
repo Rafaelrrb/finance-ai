@@ -1,3 +1,5 @@
+import { Button } from "./_components/ui/button";
+
 export default function Home() {
-  return <h1>Ola</h1>;
+  return <Button> Enviar </Button>;
 }
