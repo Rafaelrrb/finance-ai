@@ -42,3 +42,13 @@
 
     Muda temas de cores
         npm i @clerk/themes@2.1.37
+
+# Husky (https://www.npmjs.com/package/husky)
+    Formata o codigo para um padrão antes do commit
+        npm i -D husky@9.1.6
+    Inicializa o husky no projeto 
+        npx husky init
+
+# lint-staged (https://www.npmjs.com/package/lint-staged)
+    Faz um filtro para pegar apaenas arquivos que foram alterados no commit atual 
+        npm i -D lint-staged@12.3.2
