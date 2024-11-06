@@ -22,3 +22,6 @@
         npx prisma migrate dev --name init_db
 
 # Banco de dados em https://console.neon.tech/app/projects/cool-haze-91036406?branchId=br-sparkling-night-a5m1xwwc&database=neondb
+
+# Plugin para Tailwind (https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
+    npm install -D prettier prettier-plugin-tailwindcss
