@@ -1,0 +1,24 @@
+# Criando projeto 
+    npx create-next-app@14.2.16
+
+# Definir opções
+    Ok to proceed? (y) y
+    ✔ What is your project named? … finance-ai
+    ✔ Would you like to use TypeScript? … Yes
+    ✔ Would you like to use ESLint? …  Yes
+    ✔ Would you like to use Tailwind CSS? … Yes
+    ✔ Would you like to use `src/` directory? … No
+    ✔ Would you like to use App Router? (recommended) … Yes
+    ✔ Would you like to customize the default import alias (@/*)? … No
+
+# Prisma
+    npm i prisma@5.21.1
+    npx prisma init
+
+    Organiza o codigo criado 
+        npx prisma format
+
+    Cria a migrate no banco de dados
+        npx prisma migrate dev --name init_db
+
+# Banco de dados em https://console.neon.tech/app/projects/cool-haze-91036406?branchId=br-sparkling-night-a5m1xwwc&database=neondb
