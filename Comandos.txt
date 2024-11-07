@@ -60,3 +60,12 @@
         npm i git-commit-msg-linter@5.0.8
 
         npx husky add .husky/commit-msg ".git/hooks/commit-msg \$1"
+
+# Docker
+    sudo docker-compose up -d
+
+    Roda a migrates no novo banco de dados 
+        npx prisma migrate dev
+
+    Em ambiente de produção vc usa
+        npx prisma migrate deploy
