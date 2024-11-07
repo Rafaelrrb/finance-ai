@@ -21,6 +21,9 @@
     Cria a migrate no banco de dados
         npx prisma migrate dev --name init_db
 
+    Alterando coisas no banco no caso o userId
+        npx prisma migrate dev --name add_user_id_to_transaction
+
 # Banco de dados em https://console.neon.tech/app/projects/cool-haze-91036406?branchId=br-sparkling-night-a5m1xwwc&database=neondb
 
 # Plugin para Tailwind (https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
