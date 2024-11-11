@@ -89,3 +89,7 @@
 
 # Formata os numeros
     npm i react-number-format@5.4.2
+
+# Stripe (https://dashboard.stripe.com/test/products/prod_RCDAwSOuxlQCVt)
+    npm install stripe@17.3.1
+    npm install @stripe/stripe-js@4.9.0
