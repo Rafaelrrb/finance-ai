@@ -96,3 +96,10 @@
     npm install @stripe/stripe-js@4.9.0
 
     stripe listen --forward-to http://localhost:3000/api/webhooks/stripe
+
+# OpenAI (https://platform.openai.com/settings/organization/api-keys)
+    npm i openai@4.71.1
+
+    Le a mensagem em markdown
+        npm i react-markdown@9.0.1
+        npm install -D @tailwindcss/typography@0.5.15 (https://github.com/tailwindlabs/tailwindcss-typography)
