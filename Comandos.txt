@@ -103,3 +103,7 @@
     Le a mensagem em markdown
         npm i react-markdown@9.0.1
         npm install -D @tailwindcss/typography@0.5.15 (https://github.com/tailwindlabs/tailwindcss-typography)
+
+# Em produção 
+    npm run build
+    npm run start
