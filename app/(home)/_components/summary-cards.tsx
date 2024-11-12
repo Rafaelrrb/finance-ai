@@ -14,7 +14,7 @@ interface SummaryCardsProps {
   useCandAddTransaction?: boolean;
 }
 
-export default async function SummaryCards({
+export default function SummaryCards({
   balance,
   investmentsTotal,
   depositsTotal,
